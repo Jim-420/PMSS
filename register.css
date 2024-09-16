@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #f36b31;
+    
+  }
+.menuDiv{
+    margin-top: 50px;
+}
+.border{
+    border-bottom:2px solid coral;
+}
+.signupPage{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
+}
+.tabDiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+}

@@ -1,0 +1,1438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="register.css" />
+</head>
+<body>
+    <div class="menuDiv" style="margin-left: 10%; margin-right: 10%;">
+        <div class="bridcrumbsDiv">
+            <h2 class="border" style="display: flex; justify-content: space-between;">
+                Registration
+                <span id="ContentPlaceHolder1_RegistrationUC1_divMandatoryField" style="margin: 0 15px; text-align: right; color: #666;" class="alignRight"><span style="font-size: 15px !important; margin-top: -5px;">
+                        <span style="color: Red;">*</span> mark fields are mandatory. </span></span>
+            </h2>
+        </div>
+     
+    </div>
+    <div class="signupPage">
+        <div id="ContentPlaceHolder1_RegistrationUC1_divSingupPanel">
+            <div id="dialog" style="display:None;width: auto;min-height: 200px;">
+                <span id="ContentPlaceHolder1_RegistrationUC1_spnwarningmessage" style="color: Red; font-size: 15px; font-weight: bold;
+                    display: none;" class="error">Account already Exists</span>
+                <br>
+                <span id="ContentPlaceHolder1_RegistrationUC1_Span1" style="color: Red; font-size: 15px; font-weight: bold;" class="error">Your previous data is held with us, as you are already beneficiary.
+                    Kindly provide your email id to get the login id and password.</span>
+                <br>
+                <br>
+                <label for="ContentPlaceHolder1_RegistrationUC1_txtemail" id="ContentPlaceHolder1_RegistrationUC1_Label272">Email Id</label>
+                <input name="ctl00$ContentPlaceHolder1$RegistrationUC1$txtemail" type="text" id="ContentPlaceHolder1_RegistrationUC1_txtemail" style="width:450px;" autocomplete="off">
+                <span id="ContentPlaceHolder1_RegistrationUC1_reqemail" class="validationError" style="color:Red;display:none;">!Required</span>
+                <span id="ContentPlaceHolder1_RegistrationUC1_RegularExpressionValidator2" class="validationError" style="color:Red;display:none;">Please add valid email address</span>
+            </div>
+            <input type="submit" name="ctl00$ContentPlaceHolder1$RegistrationUC1$BtnSendLoginEmail" value="Ok" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentPlaceHolder1$RegistrationUC1$BtnSendLoginEmail&quot;, &quot;&quot;, true, &quot;poup&quot;, &quot;&quot;, false, false))" id="ContentPlaceHolder1_RegistrationUC1_BtnSendLoginEmail" style="display: none;" autocomplete="off">
+            <div class="formContent">
+                <div style="border-bottom: 2px solid coral;" class="userPhoto cf">
+                    <div id="ContentPlaceHolder1_RegistrationUC1_DivNote" style="float: right; width: 100%; text-align: left;
+                        border: 1px solid #e5e5e5; background-color: #f9fafa;">
+                        <div class="cf" style="font-size: 14px; color: #e65a15; text-decoration: underline;
+                            margin-top: 10px; padding: 0px 0px 5px 13px; margin-bottom: 10px;">
+                            <strong style="font-weight: bolder">Instructions </strong>
+                            <br>
+                            <b>1. Follow the guideline banner to fill Registration form.</b><br>
+                            <b>2. Kindly fill the Part1 and Part2 to get Registered Successfully.</b>
+                        </div>
+                    </div>
+                    
+                    <div id="ContentPlaceHolder1_RegistrationUC1_dvBorder" class="alignRight autoWdth">
+                        &nbsp;
+                    </div>
+                </div>
+                <div class="tabPanel">
+                    <a class="tabHead" id="aP1">
+                        <h1 style="margin-top: 50px; margin-bottom: 30px;">
+                            Part 1 <span class="fa fa-minus"></span>
+                        </h1>
+                    </a>
+                    <div id="ContentPlaceHolder1_RegistrationUC1_tab11" class=" show">
+                        <div id="ContentPlaceHolder1_RegistrationUC1_UPDRSB" class="tabDiv">
+        
+                                <div class="inputBlock">
+                                    <label for="ContentPlaceHolder1_RegistrationUC1_ddlCategory" id="ContentPlaceHolder1_RegistrationUC1_Label12" class="fLabel">Who you are ? :</label><span class="red">*</span>
+                                    <select name="ctl00$ContentPlaceHolder1$RegistrationUC1$ddlCategory" id="ContentPlaceHolder1_RegistrationUC1_ddlCategory">
+            <option selected="selected" value="0">-- Select Category --</option>
+            <option value="a0b48de7-05b4-4315-b5a3-4513365e5ad6">ESM (Self)</option>
+            <option value="e4b53422-9de6-4c6a-b279-b51c34caed67">Orphan</option>
+            <option value="9ca8f0e5-cc23-4c29-9d9d-a9f2f35b7872">Widow</option>
+    
+        </select>
+                                    <span id="ContentPlaceHolder1_RegistrationUC1_RequiredFieldValidator5" class="validationError" style="color:Red;display:none;">Please select who you are.</span>
+                                </div>
+                                <div class="inputBlock">
+                                    <label for="ContentPlaceHolder1_RegistrationUC1_TxtFirstName" id="ContentPlaceHolder1_RegistrationUC1_Label18" class="fLabel">First Name :</label><span class="red">*</span>
+                                    <input name="ctl00$ContentPlaceHolder1$RegistrationUC1$TxtFirstName" type="text" maxlength="50" id="ContentPlaceHolder1_RegistrationUC1_TxtFirstName" onkeypress="return IsAlphabate(event);" autocomplete="off">
+                                    <span id="ContentPlaceHolder1_RegistrationUC1_RequiredFieldValidator11" class="validationError" style="color:Red;display:none;">Please add First Name</span>
+                                </div>
+                                <div class="inputBlock">
+                                    <label for="ContentPlaceHolder1_RegistrationUC1_TxtMiddleName" id="ContentPlaceHolder1_RegistrationUC1_Label19" class="fLabel">Middle Name :</label>
+                                    <input name="ctl00$ContentPlaceHolder1$RegistrationUC1$TxtMiddleName" type="text" maxlength="50" id="ContentPlaceHolder1_RegistrationUC1_TxtMiddleName" onkeypress="return IsAlphabate(event);" autocomplete="off">
+                                </div>
+                                <div class="inputBlock">
+                                    <label for="ContentPlaceHolder1_RegistrationUC1_TxtSurname" id="ContentPlaceHolder1_RegistrationUC1_Label20" class="fLabel">Surname :</label>
+                                    <input name="ctl00$ContentPlaceHolder1$RegistrationUC1$TxtSurname" type="text" maxlength="50" id="ContentPlaceHolder1_RegistrationUC1_TxtSurname" onkeypress="return IsAlphabate(event);" autocomplete="off">
+                                    
+                                </div>
+                                <div class="inputBlock">
+                                    <label for="ContentPlaceHolder1_RegistrationUC1_TxtServiceNumber" id="ContentPlaceHolder1_RegistrationUC1_Label3" class="fLabel">Service Number of ESM :</label><span class="red">*</span>
+                                    <input name="ctl00$ContentPlaceHolder1$RegistrationUC1$TxtServiceNumber" type="text" maxlength="500" id="ContentPlaceHolder1_RegistrationUC1_TxtServiceNumber" onblur=" return ValueCheckOnBlur(this,'Service Number of ESM','IsAlphaNumericwithoutspace');" onkeypress="return IsAlphaNumericwithoutspace(event);" autocomplete="off">
+                                    <span id="ContentPlaceHolder1_RegistrationUC1_RequiredFieldValidator1" class="validationError" style="color:Red;display:none;">Please add Service Number</span>
+                                </div>
+                                <div class="inputBlock">
+                                    <label for="ContentPlaceHolder1_RegistrationUC1_TxtIDCardNumber" id="ContentPlaceHolder1_RegistrationUC1_Label29" class="fLabel">Do you have an Existing ESM Id Card ? :</label>
+                                    <table id="ContentPlaceHolder1_RegistrationUC1_rdlicard" class="radiogrid">
+            <tbody><tr>
+                <td><input id="ContentPlaceHolder1_RegistrationUC1_rdlicard_0" type="radio" name="ctl00$ContentPlaceHolder1$RegistrationUC1$rdlicard" value="0" onclick="javascript:setTimeout('__doPostBack(\'ctl00$ContentPlaceHolder1$RegistrationUC1$rdlicard$0\',\'\')', 0)" autocomplete="off"><label for="ContentPlaceHolder1_RegistrationUC1_rdlicard_0">Yes</label></td><td><input id="ContentPlaceHolder1_RegistrationUC1_rdlicard_1" type="radio" name="ctl00$ContentPlaceHolder1$RegistrationUC1$rdlicard" value="1" checked="checked" autocomplete="off"><label for="ContentPlaceHolder1_RegistrationUC1_rdlicard_1">No</label></td>
+            </tr>
+        </tbody></table>
+                                </div>
+                                <div id="ContentPlaceHolder1_RegistrationUC1_exicard" class="inputBlock" style="display:none;">
+                                    <label for="ContentPlaceHolder1_RegistrationUC1_TxtIDCardNumber" id="ContentPlaceHolder1_RegistrationUC1_Label4" class="fLabel">Ex-Serviceman Id card(Enter Id card No.):</label><span class="red">*</span>
+                                    <input name="ctl00$ContentPlaceHolder1$RegistrationUC1$TxtIDCardNumber" type="text" maxlength="50" id="ContentPlaceHolder1_RegistrationUC1_TxtIDCardNumber" autocomplete="off">
+                                    
+                                </div>
+                                <div class="inputBlock">
+                                    <label for="ContentPlaceHolder1_RegistrationUC1_ddlTypeofService" id="ContentPlaceHolder1_RegistrationUC1_LblTypeOfService" class="fLabel">Type of Service of ESM :</label><span class="red">*</span>
+                                    <select name="ctl00$ContentPlaceHolder1$RegistrationUC1$ddlTypeofService" onchange="javascript:setTimeout('__doPostBack(\'ctl00$ContentPlaceHolder1$RegistrationUC1$ddlTypeofService\',\'\')', 0)" id="ContentPlaceHolder1_RegistrationUC1_ddlTypeofService">
+            <option selected="selected" value="0">-- Select Type of Service --</option>
+            <option value="1">Army</option>
+            <option value="2">Navy</option>
+            <option value="3">Air Force</option>
+            <option value="4">Coast Guard</option>
+    
+        </select>
+                                    <span id="ContentPlaceHolder1_RegistrationUC1_RFVTypeOfService" class="validationError" style="color:Red;display:none;"> Select type of service</span>
+                                </div>
+                                <div class="inputBlock">
+                                    <label for="ContentPlaceHolder1_RegistrationUC1_TxtRank" id="ContentPlaceHolder1_RegistrationUC1_LblRank" class="fLabel">Rank of ESM :</label><span class="red">*</span>
+                                    <select name="ctl00$ContentPlaceHolder1$RegistrationUC1$DdlRank" id="ContentPlaceHolder1_RegistrationUC1_DdlRank">
+    
+        </select>
+                                    
+                                    <span id="ContentPlaceHolder1_RegistrationUC1_RFVDDLRank" class="validationError" style="color:Red;display:none;"> Select Rank of ESM</span>
+                                    <span id="ContentPlaceHolder1_RegistrationUC1_RFVTxtRank" class="validationError" style="color:Red;display:none;"> Add Rank Of ESM</span>
+                                </div>
+                                <div class="inputBlock">
+                                    <label for="ContentPlaceHolder1_RegistrationUC1_ddlRSB" id="ContentPlaceHolder1_RegistrationUC1_Label6" class="fLabel">Concerned RSB :</label><span class="red">*</span>
+                                    <select name="ctl00$ContentPlaceHolder1$RegistrationUC1$ddlRSB" onchange="javascript:setTimeout('__doPostBack(\'ctl00$ContentPlaceHolder1$RegistrationUC1$ddlRSB\',\'\')', 0)" id="ContentPlaceHolder1_RegistrationUC1_ddlRSB">
+            <option selected="selected" value="0">-- Select RSB --</option>
+            <option value="4ebfaacd-5482-4f97-a3e7-deb9cd369403">ANDAMAN &amp; NICOBAR ISLANDS (UT)</option>
+            <option value="5f56c2ad-d30e-4b06-8d03-b7d59e4c209b">ANDHRA PRADESH</option>
+            <option value="d8d53370-be03-4dc8-b161-7482d6e4d0d9">ARUNACHAL PRADESH</option>
+            <option value="dce68dad-95fa-442b-9283-5162804ec1df">ASSAM</option>
+            <option value="eb9050fd-2d4e-4ad9-beb1-45c33ff96b71">BIHAR</option>
+            <option value="edb9dee0-331d-45f2-9d1a-a1af16280a04">CHANDIGARH (UT)</option>
+            <option value="ff39d672-5e71-4331-aace-e2c126270f6b">CHHATTISGARH</option>
+            <option value="9b354808-a966-4ee7-8f52-a4bcad28f87b">DELHI</option>
+            <option value="0ed4ed76-fb87-40d3-861d-232809ed3e9e">Delhi Coast Guard</option>
+            <option value="d5500c8b-dc85-4049-a2fc-dbef47c82d6d">GOA</option>
+            <option value="16928c7e-77b3-450f-b7c9-1b2aaabe2fcf">GUJARAT</option>
+            <option value="863e2e29-9f70-48f7-9785-485650dd0c34">HARYANA</option>
+            <option value="cda1b91f-516d-4255-bfbf-dfbfbd7ee42f">HIMACHAL PRADESH</option>
+            <option value="85e79fa1-cb6e-4c28-ae49-97f06990cf83">JAMMU AND KASHMIR</option>
+            <option value="ad813042-bf18-4aca-a2e9-19724b324ed5">JHARKHAND</option>
+            <option value="6430d602-2d89-44a5-b068-6fa279918768">KARNATAKA</option>
+            <option value="a2ae1e49-1acc-46ff-853f-7506a81daf3b">KERALA</option>
+            <option value="d62baaa5-cb81-4e03-bc29-237574e4199d">Leh</option>
+            <option value="acc036da-9ffb-4d24-9bd0-22f153a12a39">MADHYA PRADESH</option>
+            <option value="d17cd7a3-3ff8-44fe-82fa-130fc5125f64">MAHARASHTRA</option>
+            <option value="0a463af0-6ded-428d-87af-a6183cc6cf09">MANIPUR</option>
+            <option value="5b58a542-4a07-4326-959e-4e3b221a3c7b">MEGHALAYA</option>
+            <option value="96b575c3-bd05-4808-a2a5-bf6de8cd5736">MIZORAM</option>
+            <option value="1a4f966a-4b63-4a80-b082-76c147440bea">NAGALAND</option>
+            <option value="7b44cb6b-3cf8-4232-a2a0-805e0fa10a70">ODISHA</option>
+            <option value="6733f21a-8e23-4597-a06c-ff32c2cccb67">PUDUCHERRY (UT)</option>
+            <option value="31121e62-4a1d-4da7-b904-df12b80d1d81">PUNJAB</option>
+            <option value="876eb7ad-c3ac-49b9-94a8-56fa2df352ca">RAJASTHAN</option>
+            <option value="b54b7d17-969d-436b-bdec-28091e0db6e1">SIKKIM</option>
+            <option value="a5da696a-5000-474f-83d1-34a1d7a10551">TAMIL NADU</option>
+            <option value="36de30b4-57c1-4f3a-862e-df707d15101b">TELANGANA</option>
+            <option value="6386927f-e7b5-43a3-a0a3-5c46c7e10f9b">TRIPURA</option>
+            <option value="1b3fe71e-05e3-4225-b0d8-5e0bd0d19e22">UTTAR PRADESH</option>
+            <option value="0d23c44b-8aec-4c9e-b64b-bd1cc275609e">UTTARAKHAND</option>
+            <option value="f8184e6a-464b-4072-91aa-0ca71e73ae2c">WEST BENGAL</option>
+            <option value="6b31c280-50a2-4155-85f2-e38724d6146c">xTest RSB</option>
+    
+        </select>
+                                    <span id="ContentPlaceHolder1_RegistrationUC1_RFVRSB" class="validationError" style="color:Red;display:none;"> Select Rajya Sainik Board</span>
+                                </div>
+                                
+                                <div class="inputBlock" style="display:none">
+                                    <label for="ContentPlaceHolder1_RegistrationUC1_TxtAadharCardNumber1" id="ContentPlaceHolder1_RegistrationUC1_Label1" class="fLabel">Aadhar Card Number :</label><span id="ContentPlaceHolder1_RegistrationUC1_spnaadharred" class="red"></span>
+                                    <div>
+                                        <input name="ctl00$ContentPlaceHolder1$RegistrationUC1$TxtAadharCardNumber1" type="text" maxlength="4" id="ContentPlaceHolder1_RegistrationUC1_TxtAadharCardNumber1" autocomplete="off" onkeyup="extractNumericNumber(this,0,false);" onkeypress="return IsNumericWithDotNegative (this, event, false, false);" style="width: 23%;">
+                                        <input type="hidden" name="ctl00$ContentPlaceHolder1$RegistrationUC1$hdnTxtAadharCardNumber1" id="ContentPlaceHolder1_RegistrationUC1_hdnTxtAadharCardNumber1" autocomplete="off">
+                                        <input name="ctl00$ContentPlaceHolder1$RegistrationUC1$TxtAadharCardNumber2" type="text" maxlength="4" id="ContentPlaceHolder1_RegistrationUC1_TxtAadharCardNumber2" autocomplete="off" onkeyup="extractNumericNumber(this,0,false);" onkeypress="return IsNumericWithDotNegative (this, event, false, false);" style="width: 23%;">
+                                        <input name="ctl00$ContentPlaceHolder1$RegistrationUC1$TxtAadharCardNumber3" type="text" maxlength="4" id="ContentPlaceHolder1_RegistrationUC1_TxtAadharCardNumber3" onchange="mychange2()" autocomplete="off" onkeyup="extractNumericNumber(this,0,false);" onkeypress="return IsNumericWithDotNegative (this, event, false, false);" style="width: 23%;">
+                                        
+                                    </div>
+                                </div>
+                                <div class="inputBlock">
+                                    <label for="ContentPlaceHolder1_RegistrationUC1_TxtDOB" id="ContentPlaceHolder1_RegistrationUC1_Label8" class="fLabel">Date of Birth :</label><span class="red">*</span>
+                                    <input name="ctl00$ContentPlaceHolder1$RegistrationUC1$TxtDOB" type="text" id="ContentPlaceHolder1_RegistrationUC1_TxtDOB" class="datepickerTillDate hasDatepicker" autocomplete="off" readonly="readonly">
+                                    <span id="ContentPlaceHolder1_RegistrationUC1_RequiredFieldValidator7" class="validationError" style="color:Red;display:none;">Please add birth date</span>
+                                </div>
+                                <div class="inputBlock">
+                                    <label for="ContentPlaceHolder1_RegistrationUC1_TxtDateofEnroll" id="ContentPlaceHolder1_RegistrationUC1_Label10" class="fLabel">Date of Enrollment :</label><span class="red">*</span>
+                                    <input name="ctl00$ContentPlaceHolder1$RegistrationUC1$TxtDateofEnroll" type="text" id="ContentPlaceHolder1_RegistrationUC1_TxtDateofEnroll" class="datepickerTillDate hasDatepicker" autocomplete="off" onchange="Calculate()" readonly="readonly">
+                                    <span id="ContentPlaceHolder1_RegistrationUC1_RequiredFieldValidator19" class="validationError" style="color:Red;display:none;">Please add enrollment date</span>
+                                </div>
+                                <div class="inputBlock">
+                                    <label for="ContentPlaceHolder1_RegistrationUC1_TxtDateofDischarge" id="ContentPlaceHolder1_RegistrationUC1_Label11" class="fLabel">Date of Discharge :</label><span class="red">*</span>
+                                    <input name="ctl00$ContentPlaceHolder1$RegistrationUC1$TxtDateofDischarge" type="text" id="ContentPlaceHolder1_RegistrationUC1_TxtDateofDischarge" class="datepickerTillDate hasDatepicker" autocomplete="off" onchange="Calculate()" readonly="readonly">
+                                    <span id="ContentPlaceHolder1_RegistrationUC1_RequiredFieldValidator4" class="validationError" style="color:Red;display:none;">Please add discharge date</span>
+                                </div>
+                                <div id="ContentPlaceHolder1_RegistrationUC1_DivDeathDate" class="inputBlock">
+                                    <label for="ContentPlaceHolder1_RegistrationUC1_TxtDateofDeath" id="ContentPlaceHolder1_RegistrationUC1_Label13" class="fLabel">Date of Death of ESM (if applicable):</label>
+                                    <input name="ctl00$ContentPlaceHolder1$RegistrationUC1$TxtDateofDeath" type="text" id="ContentPlaceHolder1_RegistrationUC1_TxtDateofDeath" class="datepickerTillDate hasDatepicker" autocomplete="off" readonly="readonly">
+                                    
+                                </div>
+                                <div class="inputBlock">
+                                    <label for="ContentPlaceHolder1_RegistrationUC1_TxtFatherorHusbandName" id="ContentPlaceHolder1_RegistrationUC1_Label14" class="fLabel">Father's Name/Husband's Name :</label>
+                                    <input name="ctl00$ContentPlaceHolder1$RegistrationUC1$TxtFatherorHusbandName" type="text" maxlength="100" id="ContentPlaceHolder1_RegistrationUC1_TxtFatherorHusbandName" onkeypress="return IsAlphabate(event);" autocomplete="off">
+                                </div>
+                                <div class="inputBlock">
+                                    <label for="ContentPlaceHolder1_RegistrationUC1_TxtEmailId" id="ContentPlaceHolder1_RegistrationUC1_Label2">Email Id :</label><span class="red">*</span>
+                                    <input name="ctl00$ContentPlaceHolder1$RegistrationUC1$TxtEmailId" type="text" id="ContentPlaceHolder1_RegistrationUC1_TxtEmailId" autocomplete="off">
+                                    <span id="ContentPlaceHolder1_RegistrationUC1_rfvtxtEmail" class="validationError" style="color:Red;display:none;">Please add email</span>
+                                    <span id="ContentPlaceHolder1_RegistrationUC1_revtxtEmail" class="validationError" style="color:Red;display:none;">Please add valid email address</span>
+                                </div>
+                                <div class="inputBlock">
+                                    <label for="ContentPlaceHolder1_RegistrationUC1_TxtMobile" id="ContentPlaceHolder1_RegistrationUC1_Label16" class="fLabel">Mobile No. :</label><span class="red">*</span>
+                                    <input name="ctl00$ContentPlaceHolder1$RegistrationUC1$TxtMobile" type="text" maxlength="10" id="ContentPlaceHolder1_RegistrationUC1_TxtMobile" onkeyup="extractNumericNumber(this,0,false);" onkeypress="return IsNumericWithDotNegative (this, event, false, false);" autocomplete="off">
+                                    <span id="ContentPlaceHolder1_RegistrationUC1_RequiredFieldValidator3" class="validationError" style="color:Red;display:none;">Please add mobile number</span>
+                                </div>
+                            
+    </div>
+                        <div class="cf txtRight" style="display: none;">
+                            <div id="ContentPlaceHolder1_RegistrationUC1_DivSave1" class="signupBtns inlineBlock autoWdth">
+                                <input type="submit" name="ctl00$ContentPlaceHolder1$RegistrationUC1$BtnSavePart1" value="Save" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentPlaceHolder1$RegistrationUC1$BtnSavePart1&quot;, &quot;&quot;, true, &quot;Submit&quot;, &quot;&quot;, false, false))" id="ContentPlaceHolder1_RegistrationUC1_BtnSavePart1" class="blueBtn" autocomplete="off">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div  style="border-bottom: 2px solid coral; margin-top: 30px;"></div>
+            <div class="tabPanel">
+                <a class="tabHead" id="aP2">
+                    <h1 style="margin-top: 50px; margin-bottom: 30px;">
+                        Part 2 <span class="fa fa-minus"></span>
+                    </h1>
+                </a>
+                <div class="tabDiv">
+                    <div id="ContentPlaceHolder1_RegistrationUC1_UpdatePanel1" class="tabDiv">
+        
+                            <div class="inputBlock">
+                                <label for="ContentPlaceHolder1_RegistrationUC1_TxtHouseNo" id="ContentPlaceHolder1_RegistrationUC1_Label21" class="fLabel">House No. :</label><span class="red">*</span>
+                                <input name="ctl00$ContentPlaceHolder1$RegistrationUC1$TxtHouseNo" type="text" maxlength="500" id="ContentPlaceHolder1_RegistrationUC1_TxtHouseNo" onkeypress="return IsAlphaNumeric(event);" autocomplete="off">
+                                <span id="ContentPlaceHolder1_RegistrationUC1_RequiredFieldValidator6" class="validationError" style="color:Red;display:none;"> Add House No.</span>
+                            </div>
+                            <div class="inputBlock">
+                                <label for="ContentPlaceHolder1_RegistrationUC1_TxtResidence" id="ContentPlaceHolder1_RegistrationUC1_Label15" class="fLabel">Street No. &amp; Name :</label><span class="red">*</span>
+                                <input name="ctl00$ContentPlaceHolder1$RegistrationUC1$TxtResidence" type="text" maxlength="500" id="ContentPlaceHolder1_RegistrationUC1_TxtResidence" onkeypress="return IsAlphaNumeric(event);" autocomplete="off">
+                                <span id="ContentPlaceHolder1_RegistrationUC1_RequiredFieldValidator9" class="validationError" style="color:Red;display:none;"> Add Residence Detail</span>
+                            </div>
+                            <div class="inputBlock">
+                                <label for="ContentPlaceHolder1_RegistrationUC1_TxtTown" id="ContentPlaceHolder1_RegistrationUC1_Label23" class="fLabel">Town :</label>
+                                <input name="ctl00$ContentPlaceHolder1$RegistrationUC1$TxtTown" type="text" maxlength="100" id="ContentPlaceHolder1_RegistrationUC1_TxtTown" onkeypress="return IsAlphaNumeric(event);" autocomplete="off">
+                            </div>
+                            <div class="inputBlock">
+                                <label for="ContentPlaceHolder1_RegistrationUC1_TxtVillage" id="ContentPlaceHolder1_RegistrationUC1_Label24" class="fLabel">Village :</label>
+                                <input name="ctl00$ContentPlaceHolder1$RegistrationUC1$TxtVillage" type="text" maxlength="100" id="ContentPlaceHolder1_RegistrationUC1_TxtVillage" onkeypress="return IsAlphabate(event);" autocomplete="off">
+                            </div>
+                            <div class="inputBlock">
+                                <label for="ContentPlaceHolder1_RegistrationUC1_TxtCity" id="ContentPlaceHolder1_RegistrationUC1_Label25" class="fLabel">City :</label>
+                                <input name="ctl00$ContentPlaceHolder1$RegistrationUC1$TxtCity" type="text" maxlength="100" id="ContentPlaceHolder1_RegistrationUC1_TxtCity" onkeypress="return IsAlphaNumeric(event);" autocomplete="off">
+                            </div>
+                            <div class="inputBlock">
+                                <label for="ContentPlaceHolder1_RegistrationUC1_dllState" id="ContentPlaceHolder1_RegistrationUC1_Label39" class="fLabel">State :</label>
+                                <span class="red">*</span>
+                                <select name="ctl00$ContentPlaceHolder1$RegistrationUC1$dllState" onchange="javascript:setTimeout('__doPostBack(\'ctl00$ContentPlaceHolder1$RegistrationUC1$dllState\',\'\')', 0)" id="ContentPlaceHolder1_RegistrationUC1_dllState">
+            <option selected="selected" value="0">-- Select State --</option>
+            <option value="1834">Andaman and Nicobar Islands</option>
+            <option value="1835">Andhra Pradesh</option>
+            <option value="1862">Arunachal Pradesh</option>
+            <option value="1836">Assam</option>
+            <option value="1837">Bihar</option>
+            <option value="1838">Chandigarh</option>
+            <option value="4111">Chhattisgarh</option>
+            <option value="1840">Delhi</option>
+            <option value="1865">Goa</option>
+            <option value="1841">Gujarat</option>
+            <option value="1842">Haryana</option>
+            <option value="1843">Himachal Pradesh</option>
+            <option value="1844">Jammu and Kashmir</option>
+            <option value="4112">Jharkhand</option>
+            <option value="1851">Karnataka</option>
+            <option value="1845">Kerala</option>
+            <option value="4245">LADAKH</option>
+            <option value="1846">Lakshadweep</option>
+            <option value="1847">Madhya Pradesh</option>
+            <option value="1848">Maharashtra</option>
+            <option value="1849">Manipur</option>
+            <option value="1850">Meghalaya</option>
+            <option value="1863">Mizoram</option>
+            <option value="1852">Nagaland</option>
+            <option value="1853">ODISHA</option>
+            <option value="1854">Pondicherry</option>
+            <option value="1855">Punjab</option>
+            <option value="1856">Rajasthan</option>
+            <option value="1861">Sikkim</option>
+            <option value="1857">Tamil Nadu</option>
+            <option value="4243">Telengana</option>
+            <option value="1839">The Dadra and Nagar Haveli and Daman and Diu</option>
+            <option value="1858">Tripura</option>
+            <option value="1859">Uttar Pradesh</option>
+            <option value="4244">Uttarakhand</option>
+            <option value="1860">West Bengal</option>
+    
+        </select>
+                                <span id="ContentPlaceHolder1_RegistrationUC1_RequiredFieldValidator10" class="validationError" style="color:Red;display:none;"> Select State</span>
+                            </div>
+                            <div class="inputBlock">
+                                <label for="ContentPlaceHolder1_RegistrationUC1_dllDistrict" id="ContentPlaceHolder1_RegistrationUC1_Label159" class="fLabel">District :</label><span class="red">*</span>
+                                <select name="ctl00$ContentPlaceHolder1$RegistrationUC1$dllDistrict" id="ContentPlaceHolder1_RegistrationUC1_dllDistrict">
+            <option value="0">-- Select District --</option>
+            <option value="547">Adilabad</option>
+            <option value="763">Agar-Malwa</option>
+            <option value="565">Agra</option>
+            <option value="141">Ahmedabad</option>
+            <option value="348">Ahmednagar</option>
+            <option value="403">Aizawl</option>
+            <option value="478">Ajmer</option>
+            <option value="349">Akola</option>
+            <option value="283">Alappuzha</option>
+            <option value="566">Aligarh</option>
+            <option value="714">Alipurduar</option>
+            <option value="298">Alirajpur</option>
+            <option value="717">Alluri Sitharama Raju</option>
+            <option value="640">Almora</option>
+            <option value="479">Alwar</option>
+            <option value="174">Ambala</option>
+            <option value="568">Ambedkar Nagar</option>
+            <option value="584">Amethi</option>
+            <option value="350">Amravati</option>
+            <option value="142">Amreli</option>
+            <option value="456">Amritsar</option>
+            <option value="604">Amroha</option>
+            <option value="718">Anakapalli</option>
+            <option value="143">Anand</option>
+            <option value="4">Ananthapuramu</option>
+            <option value="207">Anantnag</option>
+            <option value="17">Anjaw</option>
+            <option value="719">Annamayya</option>
+            <option value="422">Anugul</option>
+            <option value="782">Anupgarh</option>
+            <option value="299">Anuppur</option>
+            <option value="61">Araria</option>
+            <option value="515">Ariyalur</option>
+            <option value="144">Arvalli</option>
+            <option value="62">Arwal</option>
+            <option value="300">Ashoknagar</option>
+            <option value="569">Auraiya</option>
+            <option value="63">Aurangabad</option>
+            <option value="589">Ayodhya</option>
+            <option value="570">Azamgarh</option>
+            <option value="253">Bagalkote</option>
+            <option value="641">Bageshwar</option>
+            <option value="571">Baghpat</option>
+            <option value="572">Bahraich</option>
+            <option value="739">Bajali</option>
+            <option value="34">Baksa</option>
+            <option value="301">Balaghat</option>
+            <option value="423">Balangir</option>
+            <option value="424">Baleshwar</option>
+            <option value="257">Ballari</option>
+            <option value="573">Ballia</option>
+            <option value="100">Balod</option>
+            <option value="101">Balodabazar-Bhatapara</option>
+            <option value="783">Balotra</option>
+            <option value="574">Balrampur</option>
+            <option value="102">Balrampur-Ramanujganj</option>
+            <option value="145">Banas Kantha</option>
+            <option value="575">Banda</option>
+            <option value="208">Bandipora</option>
+            <option value="64">Banka</option>
+            <option value="653">Bankura</option>
+            <option value="480">Banswara</option>
+            <option value="720">Bapatla</option>
+            <option value="576">Barabanki</option>
+            <option value="209">Baramulla</option>
+            <option value="481">Baran</option>
+            <option value="577">Bareilly</option>
+            <option value="425">Bargarh</option>
+            <option value="482">Barmer</option>
+            <option value="457">Barnala</option>
+            <option value="35">Barpeta</option>
+            <option value="302">Barwani</option>
+            <option value="103">Bastar</option>
+            <option value="578">Basti</option>
+            <option value="458">Bathinda</option>
+            <option value="784">Beawar</option>
+            <option value="352">Beed</option>
+            <option value="65">Begusarai</option>
+            <option value="256">Belagavi</option>
+            <option value="104">Bemetara</option>
+            <option value="254">Bengaluru Rural</option>
+            <option value="255">Bengaluru Urban</option>
+            <option value="303">Betul</option>
+            <option value="631">Bhadohi</option>
+            <option value="811">Bhadradri Kothagudem</option>
+            <option value="426">Bhadrak</option>
+            <option value="66">Bhagalpur</option>
+            <option value="353">Bhandara</option>
+            <option value="483">Bharatpur</option>
+            <option value="146">Bharuch</option>
+            <option value="147">Bhavnagar</option>
+            <option value="484">Bhilwara</option>
+            <option value="304">Bhind</option>
+            <option value="175">Bhiwani</option>
+            <option value="67">Bhojpur</option>
+            <option value="305">Bhopal</option>
+            <option value="258">Bidar</option>
+            <option value="105">Bijapur</option>
+            <option value="580">Bijnor</option>
+            <option value="485">Bikaner</option>
+            <option value="106">Bilaspur</option>
+            <option value="195">Bilaspur</option>
+            <option value="654">Birbhum</option>
+            <option value="383">Bishnupur</option>
+            <option value="732">Biswanath</option>
+            <option value="229">Bokaro</option>
+            <option value="36">Bongaigaon</option>
+            <option value="148">Botad</option>
+            <option value="427">Boudh</option>
+            <option value="581">Budaun</option>
+            <option value="210">Budgam</option>
+            <option value="582">Bulandshahr</option>
+            <option value="354">Buldhana</option>
+            <option value="486">Bundi</option>
+            <option value="306">Burhanpur</option>
+            <option value="68">Buxar</option>
+            <option value="37">Cachar</option>
+            <option value="130">Central</option>
+            <option value="260">Chamarajanagara</option>
+            <option value="196">Chamba</option>
+            <option value="642">Chamoli</option>
+            <option value="643">Champawat</option>
+            <option value="404">Champhai</option>
+            <option value="583">Chandauli</option>
+            <option value="384">Chandel</option>
+            <option value="99">Chandigarh</option>
+            <option value="355">Chandrapur</option>
+            <option value="18">Changlang</option>
+            <option value="733">Charaideo</option>
+            <option value="712">Charkhi Dardri</option>
+            <option value="230">Chatra</option>
+            <option value="805">Chengalpattu</option>
+            <option value="516">Chennai</option>
+            <option value="307">Chhatarpur</option>
+            <option value="351">Chhatrapati Sambhajinagar</option>
+            <option value="308">Chhindwara</option>
+            <option value="149">Chhotaudepur</option>
+            <option value="262">Chikkaballapura</option>
+            <option value="261">Chikkamagaluru</option>
+            <option value="38">Chirang</option>
+            <option value="263">Chitradurga</option>
+            <option value="585">Chitrakoot</option>
+            <option value="5">Chittoor</option>
+            <option value="487">Chittorgarh</option>
+            <option value="776">Chumoukedima</option>
+            <option value="385">Churachandpur</option>
+            <option value="488">Churu</option>
+            <option value="517">Coimbatore</option>
+            <option value="656">Cooch Behar</option>
+            <option value="518">Cuddalore</option>
+            <option value="428">Cuttack</option>
+            <option value="127">Dadra And Nagar Haveli</option>
+            <option value="150">Dahod</option>
+            <option value="107">Dakshin Bastar Dantewada</option>
+            <option value="657">Dakshin Dinajpur</option>
+            <option value="264">Dakshina Kannada</option>
+            <option value="128">Daman</option>
+            <option value="309">Damoh</option>
+            <option value="151">Dangs</option>
+            <option value="69">Darbhanga</option>
+            <option value="658">Darjeeling</option>
+            <option value="39">Darrang</option>
+            <option value="310">Datia</option>
+            <option value="489">Dausa</option>
+            <option value="265">Davangere</option>
+            <option value="785">Deeg</option>
+            <option value="644">Dehradun</option>
+            <option value="429">Deogarh</option>
+            <option value="231">Deoghar</option>
+            <option value="586">Deoria</option>
+            <option value="152">Devbhumi Dwarka</option>
+            <option value="311">Dewas</option>
+            <option value="557">Dhalai</option>
+            <option value="108">Dhamtari</option>
+            <option value="232">Dhanbad</option>
+            <option value="312">Dhar</option>
+            <option value="370">Dharashiv</option>
+            <option value="519">Dharmapuri</option>
+            <option value="266">Dharwad</option>
+            <option value="40">Dhemaji</option>
+            <option value="430">Dhenkanal</option>
+            <option value="490">Dholpur</option>
+            <option value="41">Dhubri</option>
+            <option value="356">Dhule</option>
+            <option value="19">Dibang Valley</option>
+            <option value="42">Dibrugarh</option>
+            <option value="786">Didwana-Kuchaman</option>
+            <option value="43">Dima Hasao</option>
+            <option value="411">Dimapur</option>
+            <option value="520">Dindigul</option>
+            <option value="313">Dindori</option>
+            <option value="129">Diu</option>
+            <option value="211">Doda</option>
+            <option value="721">Dr. B.R. Ambedkar Konaseema</option>
+            <option value="787">Dudu</option>
+            <option value="233">Dumka</option>
+            <option value="491">Dungarpur</option>
+            <option value="109">Durg</option>
+            <option value="131">East</option>
+            <option value="392">East Garo Hills</option>
+            <option value="7">East Godavari</option>
+            <option value="393">East Jaintia Hills</option>
+            <option value="20">East Kameng</option>
+            <option value="394">East Khasi Hills</option>
+            <option value="21">East Siang</option>
+            <option value="234">East Singhbhum</option>
+            <option value="772">Eastern West Khasi Hills</option>
+            <option value="722">Eluru</option>
+            <option value="284">Ernakulam</option>
+            <option value="521">Erode</option>
+            <option value="587">Etah</option>
+            <option value="588">Etawah</option>
+            <option value="176">Faridabad</option>
+            <option value="459">Faridkot</option>
+            <option value="590">Farrukhabad</option>
+            <option value="177">Fatehabad</option>
+            <option value="460">Fatehgarh Sahib</option>
+            <option value="591">Fatehpur</option>
+            <option value="461">Fazilka</option>
+            <option value="462">Ferozepur</option>
+            <option value="592">Firozabad</option>
+            <option value="267">Gadag</option>
+            <option value="357">Gadchiroli</option>
+            <option value="431">Gajapati</option>
+            <option value="212">Ganderbal</option>
+            <option value="153">Gandhinagar</option>
+            <option value="508">Ganganagar</option>
+            <option value="788">Gangapurcity</option>
+            <option value="799">Gangtok</option>
+            <option value="432">Ganjam</option>
+            <option value="235">Garhwa</option>
+            <option value="110">Gariyaband</option>
+            <option value="748">Gaurela-Pendra-Marwahi</option>
+            <option value="593">Gautam Buddha Nagar</option>
+            <option value="70">Gaya</option>
+            <option value="594">Ghaziabad</option>
+            <option value="595">Ghazipur</option>
+            <option value="154">Gir Somnath</option>
+            <option value="236">Giridih</option>
+            <option value="44">Goalpara</option>
+            <option value="237">Godda</option>
+            <option value="45">Golaghat</option>
+            <option value="558">Gomati</option>
+            <option value="596">Gonda</option>
+            <option value="358">Gondia</option>
+            <option value="71">Gopalganj</option>
+            <option value="597">Gorakhpur</option>
+            <option value="238">Gumla</option>
+            <option value="314">Guna</option>
+            <option value="8">Guntur</option>
+            <option value="463">Gurdaspur</option>
+            <option value="178">Gurugram</option>
+            <option value="315">Gwalior</option>
+            <option value="800">Gyalshing</option>
+            <option value="46">Hailakandi</option>
+            <option value="197">Hamirpur</option>
+            <option value="598">Hamirpur</option>
+            <option value="812">Hanumakonda</option>
+            <option value="492">Hanumangarh</option>
+            <option value="623">Hapur</option>
+            <option value="316">Harda</option>
+            <option value="599">Hardoi</option>
+            <option value="645">Haridwar</option>
+            <option value="269">Hassan</option>
+            <option value="600">Hathras</option>
+            <option value="270">Haveri</option>
+            <option value="239">Hazaribagh</option>
+            <option value="359">Hingoli</option>
+            <option value="179">Hisar</option>
+            <option value="773">Hnahthial</option>
+            <option value="734">Hojai</option>
+            <option value="659">Hooghly</option>
+            <option value="464">Hoshiarpur</option>
+            <option value="660">Howrah</option>
+            <option value="548">Hyderabad</option>
+            <option value="285">Idukki</option>
+            <option value="386">Imphal East</option>
+            <option value="387">Imphal West</option>
+            <option value="318">Indore</option>
+            <option value="319">Jabalpur</option>
+            <option value="433">Jagatsinghapur</option>
+            <option value="813">Jagitial</option>
+            <option value="493">Jaipur</option>
+            <option value="789">Jaipur (Gramin)</option>
+            <option value="494">Jaisalmer</option>
+            <option value="434">Jajapur</option>
+            <option value="465">Jalandhar</option>
+            <option value="601">Jalaun</option>
+            <option value="360">Jalgaon</option>
+            <option value="361">Jalna</option>
+            <option value="495">Jalore</option>
+            <option value="661">Jalpaiguri</option>
+            <option value="213">Jammu</option>
+            <option value="155">Jamnagar</option>
+            <option value="240">Jamtara</option>
+            <option value="72">Jamui</option>
+            <option value="814">Jangoan</option>
+            <option value="111">Janjgir-Champa</option>
+            <option value="112">Jashpur</option>
+            <option value="602">Jaunpur</option>
+            <option value="815">Jayashankar Bhupalapally</option>
+            <option value="73">Jehanabad</option>
+            <option value="320">Jhabua</option>
+            <option value="180">Jhajjar</option>
+            <option value="496">Jhalawar</option>
+            <option value="603">Jhansi</option>
+            <option value="715">Jhargram</option>
+            <option value="435">Jharsuguda</option>
+            <option value="497">Jhunjhunu</option>
+            <option value="181">Jind</option>
+            <option value="765">Jiribam</option>
+            <option value="498">Jodhpur</option>
+            <option value="790">Jodhpur (Gramin)</option>
+            <option value="816">Jogulamba Gadwal</option>
+            <option value="47">Jorhat</option>
+            <option value="156">Junagadh</option>
+            <option value="113">Kabeerdham</option>
+            <option value="157">Kachchh</option>
+            <option value="74">Kaimur (Bhabua)</option>
+            <option value="182">Kaithal</option>
+            <option value="766">Kakching</option>
+            <option value="723">Kakinada</option>
+            <option value="268">Kalaburagi</option>
+            <option value="436">Kalahandi</option>
+            <option value="716">Kalimpong</option>
+            <option value="806">Kallakurichi</option>
+            <option value="817">Kamareddy</option>
+            <option value="767">Kamjong</option>
+            <option value="740">Kamle</option>
+            <option value="49">Kamrup</option>
+            <option value="48">Kamrup Metro</option>
+            <option value="522">Kancheepuram</option>
+            <option value="437">Kandhamal</option>
+            <option value="768">Kangpokpi</option>
+            <option value="198">Kangra</option>
+            <option value="605">Kannauj</option>
+            <option value="523">Kanniyakumari</option>
+            <option value="286">Kannur</option>
+            <option value="606">Kanpur Dehat</option>
+            <option value="607">Kanpur Nagar</option>
+            <option value="466">Kapurthala</option>
+            <option value="452">Karaikal</option>
+            <option value="499">Karauli</option>
+            <option value="50">Karbi Anglong</option>
+            <option value="214">Kargil</option>
+            <option value="51">Karimganj</option>
+            <option value="549">Karimnagar</option>
+            <option value="183">Karnal</option>
+            <option value="524">Karur</option>
+            <option value="287">Kasaragod</option>
+            <option value="608">Kasganj</option>
+            <option value="215">Kathua</option>
+            <option value="75">Katihar</option>
+            <option value="321">Katni</option>
+            <option value="609">Kaushambi</option>
+            <option value="791">Kekri</option>
+            <option value="438">Kendrapara</option>
+            <option value="439">Kendujhar</option>
+            <option value="76">Khagaria</option>
+            <option value="749">Khairagarh-Chhuikhadan-Gandai</option>
+            <option value="792">Khairthal-Tijara</option>
+            <option value="550">Khammam</option>
+            <option value="322">Khandwa (East Nimar)</option>
+            <option value="323">Khargone (West Nimar)</option>
+            <option value="774">Khawzawl</option>
+            <option value="158">Kheda</option>
+            <option value="611">Kheri</option>
+            <option value="440">Khordha</option>
+            <option value="559">Khowai</option>
+            <option value="241">Khunti</option>
+            <option value="199">Kinnaur</option>
+            <option value="412">Kiphire</option>
+            <option value="77">Kishanganj</option>
+            <option value="216">Kishtwar</option>
+            <option value="271">Kodagu</option>
+            <option value="242">Koderma</option>
+            <option value="413">Kohima</option>
+            <option value="52">Kokrajhar</option>
+            <option value="272">Kolar</option>
+            <option value="405">Kolasib</option>
+            <option value="362">Kolhapur</option>
+            <option value="662">Kolkata</option>
+            <option value="288">Kollam</option>
+            <option value="115">Kondagaon</option>
+            <option value="273">Koppal</option>
+            <option value="441">Koraput</option>
+            <option value="116">Korba</option>
+            <option value="117">Korea</option>
+            <option value="500">Kota</option>
+            <option value="793">Kotputli-Behror</option>
+            <option value="289">Kottayam</option>
+            <option value="290">Kozhikode</option>
+            <option value="741">Kra Daadi</option>
+            <option value="9">Krishna</option>
+            <option value="525">Krishnagiri</option>
+            <option value="217">Kulgam</option>
+            <option value="200">Kullu</option>
+            <option value="818">Kumuram Bheem Asifabad</option>
+            <option value="218">Kupwara</option>
+            <option value="10">Kurnool</option>
+            <option value="184">Kurukshetra</option>
+            <option value="22">Kurung Kumey</option>
+            <option value="610">Kushinagar</option>
+            <option value="201">Lahul And Spiti</option>
+            <option value="53">Lakhimpur</option>
+            <option value="78">Lakhisarai</option>
+            <option value="297">Lakshadweep District</option>
+            <option value="612">Lalitpur</option>
+            <option value="243">Latehar</option>
+            <option value="363">Latur</option>
+            <option value="406">Lawngtlai</option>
+            <option value="219">Leh Ladakh</option>
+            <option value="742">Leparada</option>
+            <option value="244">Lohardaga</option>
+            <option value="23">Lohit</option>
+            <option value="24">Longding</option>
+            <option value="414">Longleng</option>
+            <option value="25">Lower Dibang Valley</option>
+            <option value="743">Lower Siang</option>
+            <option value="26">Lower Subansiri</option>
+            <option value="613">Lucknow</option>
+            <option value="467">Ludhiana</option>
+            <option value="407">Lunglei</option>
+            <option value="79">Madhepura</option>
+            <option value="80">Madhubani</option>
+            <option value="526">Madurai</option>
+            <option value="819">Mahabubabad</option>
+            <option value="551">Mahabubnagar</option>
+            <option value="614">Maharajganj</option>
+            <option value="118">Mahasamund</option>
+            <option value="453">Mahe</option>
+            <option value="185">Mahendragarh</option>
+            <option value="160">Mahesana</option>
+            <option value="159">Mahisagar</option>
+            <option value="615">Mahoba</option>
+            <option value="759">Maihar</option>
+            <option value="616">Mainpuri</option>
+            <option value="735">Majuli</option>
+            <option value="291">Malappuram</option>
+            <option value="663">Malda</option>
+            <option value="781">Malerkotla</option>
+            <option value="442">Malkangiri</option>
+            <option value="408">Mamit</option>
+            <option value="820">Mancherial</option>
+            <option value="202">Mandi</option>
+            <option value="324">Mandla</option>
+            <option value="325">Mandsaur</option>
+            <option value="274">Mandya</option>
+            <option value="750">Manendragarh-Chirmiri-Bharatpur(M C B)</option>
+            <option value="801">Mangan</option>
+            <option value="468">Mansa</option>
+            <option value="617">Mathura</option>
+            <option value="618">Mau</option>
+            <option value="760">MAUGANJ</option>
+            <option value="807">Mayiladuthurai</option>
+            <option value="443">Mayurbhanj</option>
+            <option value="552">Medak</option>
+            <option value="821">Medchal Malkajgiri</option>
+            <option value="619">Meerut</option>
+            <option value="620">Mirzapur</option>
+            <option value="469">Moga</option>
+            <option value="751">Mohla-Manpur-Ambagarh Chouki</option>
+            <option value="415">Mokokchung</option>
+            <option value="416">Mon</option>
+            <option value="621">Moradabad</option>
+            <option value="161">Morbi</option>
+            <option value="326">Morena</option>
+            <option value="54">Morigaon</option>
+            <option value="822">Mulugu</option>
+            <option value="364">Mumbai</option>
+            <option value="365">Mumbai Suburban</option>
+            <option value="119">Mungeli</option>
+            <option value="81">Munger</option>
+            <option value="664">Murshidabad</option>
+            <option value="622">Muzaffarnagar</option>
+            <option value="82">Muzaffarpur</option>
+            <option value="275">Mysuru</option>
+            <option value="444">Nabarangpur</option>
+            <option value="665">Nadia</option>
+            <option value="55">Nagaon</option>
+            <option value="527">Nagapattinam</option>
+            <option value="823">Nagarkurnool</option>
+            <option value="501">Nagaur</option>
+            <option value="366">Nagpur</option>
+            <option value="646">Nainital</option>
+            <option value="83">Nalanda</option>
+            <option value="56">Nalbari</option>
+            <option value="553">Nalgonda</option>
+            <option value="528">Namakkal</option>
+            <option value="802">Namchi</option>
+            <option value="744">Namsai</option>
+            <option value="367">Nanded</option>
+            <option value="368">Nandurbar</option>
+            <option value="724">Nandyal</option>
+            <option value="824">Narayanpet</option>
+            <option value="120">Narayanpur</option>
+            <option value="162">Narmada</option>
+            <option value="317">Narmadapuram</option>
+            <option value="327">Narsimhapur</option>
+            <option value="369">Nashik</option>
+            <option value="163">Navsari</option>
+            <option value="84">Nawada</option>
+            <option value="445">Nayagarh</option>
+            <option value="794">Neem Ka Thana</option>
+            <option value="328">Neemuch</option>
+            <option value="132">New Delhi</option>
+            <option value="1">Nicobars</option>
+            <option value="825">Nirmal</option>
+            <option value="777">Niuland</option>
+            <option value="761">Niwari</option>
+            <option value="554">Nizamabad</option>
+            <option value="778">Noklak</option>
+            <option value="769">Noney</option>
+            <option value="133">North</option>
+            <option value="666">North 24 Parganas</option>
+            <option value="2">North And Middle Andaman</option>
+            <option value="134">North East</option>
+            <option value="395">North Garo Hills</option>
+            <option value="139">North Goa</option>
+            <option value="560">North Tripura</option>
+            <option value="135">North West</option>
+            <option value="725">Ntr</option>
+            <option value="446">Nuapada</option>
+            <option value="756">Nuh</option>
+            <option value="745">Pakke Kessang</option>
+            <option value="245">Pakur</option>
+            <option value="803">Pakyong</option>
+            <option value="292">Palakkad</option>
+            <option value="246">Palamu</option>
+            <option value="764">Palghar</option>
+            <option value="502">Pali</option>
+            <option value="726">Palnadu</option>
+            <option value="187">Palwal</option>
+            <option value="164">Panch Mahals</option>
+            <option value="188">Panchkula</option>
+            <option value="762">Pandhurna</option>
+            <option value="189">Panipat</option>
+            <option value="329">Panna</option>
+            <option value="27">Papum Pare</option>
+            <option value="371">Parbhani</option>
+            <option value="727">Parvathipuram Manyam</option>
+            <option value="713">Paschim Bardhaman</option>
+            <option value="667">Paschim Medinipur</option>
+            <option value="85">Pashchim Champaran</option>
+            <option value="165">Patan</option>
+            <option value="293">Pathanamthitta</option>
+            <option value="472">Pathankot</option>
+            <option value="473">Patiala</option>
+            <option value="86">Patna</option>
+            <option value="647">Pauri Garhwal</option>
+            <option value="826">Peddapalli</option>
+            <option value="530">Perambalur</option>
+            <option value="417">Peren</option>
+            <option value="795">Phalodi</option>
+            <option value="418">Phek</option>
+            <option value="770">Pherzawl</option>
+            <option value="624">Pilibhit</option>
+            <option value="648">Pithoragarh</option>
+            <option value="454">Pondicherry</option>
+            <option value="220">Poonch</option>
+            <option value="166">Porbandar</option>
+            <option value="12">Prakasam</option>
+            <option value="503">Pratapgarh</option>
+            <option value="626">Pratapgarh</option>
+            <option value="567">Prayagraj</option>
+            <option value="531">Pudukkottai</option>
+            <option value="221">Pulwama</option>
+            <option value="372">Pune</option>
+            <option value="655">Purba Bardhaman</option>
+            <option value="668">Purba Medinipur</option>
+            <option value="87">Purbi Champaran</option>
+            <option value="447">Puri</option>
+            <option value="88">Purnia</option>
+            <option value="669">Purulia</option>
+            <option value="627">Rae Bareli</option>
+            <option value="276">Raichur</option>
+            <option value="373">Raigad</option>
+            <option value="121">Raigarh</option>
+            <option value="122">Raipur</option>
+            <option value="330">Raisen</option>
+            <option value="827">Rajanna Sircilla</option>
+            <option value="331">Rajgarh</option>
+            <option value="167">Rajkot</option>
+            <option value="123">Rajnandgaon</option>
+            <option value="222">Rajouri</option>
+            <option value="504">Rajsamand</option>
+            <option value="277">Ramanagara</option>
+            <option value="532">Ramanathapuram</option>
+            <option value="223">Ramban</option>
+            <option value="247">Ramgarh</option>
+            <option value="628">Rampur</option>
+            <option value="248">Ranchi</option>
+            <option value="555">Rangareddy</option>
+            <option value="808">Ranipet</option>
+            <option value="332">Ratlam</option>
+            <option value="374">Ratnagiri</option>
+            <option value="448">Rayagada</option>
+            <option value="224">Reasi</option>
+            <option value="333">Rewa</option>
+            <option value="190">Rewari</option>
+            <option value="396">Ri Bhoi</option>
+            <option value="191">Rohtak</option>
+            <option value="89">Rohtas</option>
+            <option value="649">Rudra Prayag</option>
+            <option value="474">Rupnagar</option>
+            <option value="476">S.A.S Nagar</option>
+            <option value="168">Sabar Kantha</option>
+            <option value="334">Sagar</option>
+            <option value="629">Saharanpur</option>
+            <option value="90">Saharsa</option>
+            <option value="249">Sahebganj</option>
+            <option value="409">Saiha</option>
+            <option value="775">Saitual</option>
+            <option value="752">Sakti</option>
+            <option value="533">Salem</option>
+            <option value="796">Salumbar</option>
+            <option value="91">Samastipur</option>
+            <option value="225">Samba</option>
+            <option value="449">Sambalpur</option>
+            <option value="579">Sambhal</option>
+            <option value="797">Sanchore</option>
+            <option value="828">Sangareddy</option>
+            <option value="375">Sangli</option>
+            <option value="475">Sangrur</option>
+            <option value="630">Sant Kabir Nagar</option>
+            <option value="250">Saraikela Kharsawan</option>
+            <option value="92">Saran</option>
+            <option value="753">Sarangarh-Bilaigarh</option>
+            <option value="376">Satara</option>
+            <option value="335">Satna</option>
+            <option value="505">Sawai Madhopur</option>
+            <option value="336">Sehore</option>
+            <option value="388">Senapati</option>
+            <option value="337">Seoni</option>
+            <option value="561">Sepahijala</option>
+            <option value="410">Serchhip</option>
+            <option value="754">Shahdara</option>
+            <option value="338">Shahdol</option>
+            <option value="471">Shahid Bhagat Singh Nagar</option>
+            <option value="632">Shahjahanpur</option>
+            <option value="798">Shahpura</option>
+            <option value="339">Shajapur</option>
+            <option value="779">Shamator</option>
+            <option value="625">Shamli</option>
+            <option value="93">Sheikhpura</option>
+            <option value="94">Sheohar</option>
+            <option value="340">Sheopur</option>
+            <option value="746">Shi Yomi</option>
+            <option value="203">Shimla</option>
+            <option value="278">Shivamogga</option>
+            <option value="341">Shivpuri</option>
+            <option value="226">Shopian</option>
+            <option value="633">Shrawasti</option>
+            <option value="747">Siang</option>
+            <option value="634">Siddharthnagar</option>
+            <option value="829">Siddipet</option>
+            <option value="342">Sidhi</option>
+            <option value="506">Sikar</option>
+            <option value="251">Simdega</option>
+            <option value="377">Sindhudurg</option>
+            <option value="343">Singrauli</option>
+            <option value="204">Sirmaur</option>
+            <option value="507">Sirohi</option>
+            <option value="192">Sirsa</option>
+            <option value="95">Sitamarhi</option>
+            <option value="635">Sitapur</option>
+            <option value="534">Sivaganga</option>
+            <option value="57">Sivasagar</option>
+            <option value="96">Siwan</option>
+            <option value="205">Solan</option>
+            <option value="378">Solapur</option>
+            <option value="636">Sonbhadra</option>
+            <option value="450">Sonepur</option>
+            <option value="193">Sonipat</option>
+            <option value="58">Sonitpur</option>
+            <option value="804">Soreng</option>
+            <option value="136">South</option>
+            <option value="670">South 24 Parganas</option>
+            <option value="3">South Andamans</option>
+            <option value="755">South East</option>
+            <option value="397">South Garo Hills</option>
+            <option value="140">South Goa</option>
+            <option value="736">South Salmara Mancachar</option>
+            <option value="562">South Tripura</option>
+            <option value="137">South West</option>
+            <option value="398">South West Garo Hills</option>
+            <option value="399">South West Khasi Hills</option>
+            <option value="470">Sri Muktsar Sahib</option>
+            <option value="728">Sri Potti Sriramulu Nellore</option>
+            <option value="729">Sri Sathya Sai</option>
+            <option value="13">Srikakulam</option>
+            <option value="227">Srinagar</option>
+            <option value="124">Sukma</option>
+            <option value="637">Sultanpur</option>
+            <option value="451">Sundargarh</option>
+            <option value="97">Supaul</option>
+            <option value="125">Surajpur</option>
+            <option value="169">Surat</option>
+            <option value="170">Surendranagar</option>
+            <option value="126">Surguja</option>
+            <option value="830">Suryapet</option>
+            <option value="389">Tamenglong</option>
+            <option value="737">Tamulpur</option>
+            <option value="171">Tapi</option>
+            <option value="477">Tarn Taran</option>
+            <option value="28">Tawang</option>
+            <option value="650">Tehri Garhwal</option>
+            <option value="771">Tengnoupal</option>
+            <option value="809">Tenkasi</option>
+            <option value="379">Thane</option>
+            <option value="535">Thanjavur</option>
+            <option value="529">The Nilgiris</option>
+            <option value="536">Theni</option>
+            <option value="541">Thiruvallur</option>
+            <option value="294">Thiruvananthapuram</option>
+            <option value="543">Thiruvarur</option>
+            <option value="537">Thoothukkudi</option>
+            <option value="390">Thoubal</option>
+            <option value="295">Thrissur</option>
+            <option value="344">Tikamgarh</option>
+            <option value="59">Tinsukia</option>
+            <option value="29">Tirap</option>
+            <option value="538">Tiruchirappalli</option>
+            <option value="539">Tirunelveli</option>
+            <option value="810">Tirupathur</option>
+            <option value="730">Tirupati</option>
+            <option value="540">Tiruppur</option>
+            <option value="542">Tiruvannamalai</option>
+            <option value="509">Tonk</option>
+            <option value="780">Tseminyu</option>
+            <option value="419">Tuensang</option>
+            <option value="279">Tumakuru</option>
+            <option value="510">Udaipur</option>
+            <option value="60">Udalguri</option>
+            <option value="651">Udam Singh Nagar</option>
+            <option value="228">Udhampur</option>
+            <option value="280">Udupi</option>
+            <option value="345">Ujjain</option>
+            <option value="391">Ukhrul</option>
+            <option value="346">Umaria</option>
+            <option value="206">Una</option>
+            <option value="563">Unakoti</option>
+            <option value="638">Unnao</option>
+            <option value="30">Upper Siang</option>
+            <option value="31">Upper Subansiri</option>
+            <option value="114">Uttar Bastar Kanker</option>
+            <option value="671">Uttar Dinajpur</option>
+            <option value="652">Uttar Kashi</option>
+            <option value="281">Uttara Kannada</option>
+            <option value="172">Vadodara</option>
+            <option value="98">Vaishali</option>
+            <option value="173">Valsad</option>
+            <option value="639">Varanasi</option>
+            <option value="544">Vellore</option>
+            <option value="347">Vidisha</option>
+            <option value="757">Vijayanagar</option>
+            <option value="758">Vijayapura</option>
+            <option value="831">Vikarabad</option>
+            <option value="545">Viluppuram</option>
+            <option value="546">Virudhunagar</option>
+            <option value="14">Visakhapatnam</option>
+            <option value="15">Vizianagaram</option>
+            <option value="832">Wanaparthy</option>
+            <option value="556">Warangal</option>
+            <option value="380">Wardha</option>
+            <option value="381">Washim</option>
+            <option value="296">Wayanad</option>
+            <option value="138">West</option>
+            <option value="400">West Garo Hills</option>
+            <option value="16">West Godavari</option>
+            <option value="401">West Jaintia Hills</option>
+            <option value="32">West Kameng</option>
+            <option value="738">West Karbi Anglong</option>
+            <option value="402">West Khasi Hills</option>
+            <option value="33">West Siang</option>
+            <option value="252">West Singhbhum</option>
+            <option value="564">West Tripura</option>
+            <option value="420">Wokha</option>
+            <option value="731">Y.S.R.</option>
+            <option value="833">Yadadri Bhuvanagiri</option>
+            <option value="282">Yadgir</option>
+            <option value="194">Yamunanagar</option>
+            <option value="455">Yanam</option>
+            <option value="382">Yavatmal</option>
+            <option value="421">Zunheboto</option>
+    
+        </select>
+                                <span id="ContentPlaceHolder1_RegistrationUC1_RequiredFieldValidator2" class="validationError" style="color:Red;display:none;"> Select District</span>
+                            </div>
+                            <div class="inputBlock">
+                                <label for="ContentPlaceHolder1_RegistrationUC1_ddlCountry" id="ContentPlaceHolder1_RegistrationUC1_Label22" class="fLabel">Country :</label>
+                                <span class="red">*</span>
+                                <select name="ctl00$ContentPlaceHolder1$RegistrationUC1$ddlCountry" id="ContentPlaceHolder1_RegistrationUC1_ddlCountry" disabled="disabled" class="aspNetDisabled">
+            <option value="0">-- Select Country --</option>
+            <option value="3">Afghanistan</option>
+            <option value="16">Aland Islands</option>
+            <option value="6">Albania</option>
+            <option value="61">Algeria</option>
+            <option value="12">American Samoa</option>
+            <option value="1">Andorra</option>
+            <option value="9">Angola</option>
+            <option value="5">Anguilla</option>
+            <option value="10">Antarctica</option>
+            <option value="4">Antigua and Barbuda</option>
+            <option value="11">Argentina</option>
+            <option value="7">Armenia</option>
+            <option value="15">Aruba</option>
+            <option value="14">Australia</option>
+            <option value="13">Austria</option>
+            <option value="17">Azerbaijan</option>
+            <option value="31">Bahamas</option>
+            <option value="24">Bahrain</option>
+            <option value="20">Bangladesh</option>
+            <option value="19">Barbados</option>
+            <option value="35">Belarus</option>
+            <option value="21">Belgium</option>
+            <option value="36">Belize</option>
+            <option value="26">Benin</option>
+            <option value="27">Bermuda</option>
+            <option value="32">Bhutan</option>
+            <option value="29">Bolivia</option>
+            <option value="18">Bosnia-Herzegovina</option>
+            <option value="34">Botswana</option>
+            <option value="33">Bouvet Island</option>
+            <option value="30">Brazil</option>
+            <option value="103">British Indian Ocean Territory</option>
+            <option value="28">Brunei Darussalam</option>
+            <option value="23">Bulgaria</option>
+            <option value="22">Burkina Faso</option>
+            <option value="25">Burundi</option>
+            <option value="113">Cambodia</option>
+            <option value="46">Cameroon</option>
+            <option value="37">Canada</option>
+            <option value="52">Cape Verde</option>
+            <option value="120">Cayman Islands</option>
+            <option value="40">Central African Republic</option>
+            <option value="206">Chad</option>
+            <option value="236">Channel Islands</option>
+            <option value="45">Chile</option>
+            <option value="47">China</option>
+            <option value="53">Christmas Island</option>
+            <option value="38">Cocos (Keeling) Islands</option>
+            <option value="48">Colombia</option>
+            <option value="115">Comoros</option>
+            <option value="39">Congo [Democratic Republic]</option>
+            <option value="41">Congo [Republic of]</option>
+            <option value="44">Cook Islands</option>
+            <option value="49">Costa Rica</option>
+            <option value="43">Cote d Ivoire [Ivory Coast]</option>
+            <option value="96">Croatia</option>
+            <option value="51">Cuba</option>
+            <option value="54">Cyprus</option>
+            <option value="55">Czech Republic</option>
+            <option value="58">Denmark</option>
+            <option value="57">Djibouti</option>
+            <option value="59">Dominica</option>
+            <option value="60">Dominican Republic</option>
+            <option value="62">Ecuador</option>
+            <option value="64">Egypt</option>
+            <option value="202">El Salvador</option>
+            <option value="86">Equatorial Guinea</option>
+            <option value="66">Eritrea</option>
+            <option value="63">Estonia</option>
+            <option value="68">Ethiopia</option>
+            <option value="71">Falkland Islands</option>
+            <option value="73">Faroe Islands</option>
+            <option value="70">Fiji</option>
+            <option value="69">Finland</option>
+            <option value="74">France</option>
+            <option value="79">French Guiana</option>
+            <option value="169">French Polynesia</option>
+            <option value="207">French Southern Territories</option>
+            <option value="75">Gabon</option>
+            <option value="83">Gambia</option>
+            <option value="78">Georgia</option>
+            <option value="56">Germany</option>
+            <option value="80">Ghana</option>
+            <option value="81">Gibraltar</option>
+            <option value="87">Greece</option>
+            <option value="82">Greenland</option>
+            <option value="77">Grenada</option>
+            <option value="85">Guadeloupe</option>
+            <option value="90">Guam</option>
+            <option value="89">Guatemala</option>
+            <option value="84">Guinea</option>
+            <option value="91">Guinea-Bissau</option>
+            <option value="92">Guyana</option>
+            <option value="97">Haiti</option>
+            <option value="94">Heard Is. and McDonald Islands</option>
+            <option value="227">Holy See (Vatican City State)</option>
+            <option value="95">Honduras</option>
+            <option value="93">Hong Kong</option>
+            <option value="98">Hungary</option>
+            <option value="106">Iceland</option>
+            <option selected="selected" value="102">India</option>
+            <option value="99">Indonesia</option>
+            <option value="105">Iran</option>
+            <option value="104">Iraq</option>
+            <option value="100">Ireland</option>
+            <option value="101">Israel</option>
+            <option value="107">Italy</option>
+            <option value="108">Jamaica</option>
+            <option value="110">Japan</option>
+            <option value="109">Jordan</option>
+            <option value="121">Kazakhstan</option>
+            <option value="111">Kenya</option>
+            <option value="114">Kiribati</option>
+            <option value="245">Korea (DPR)</option>
+            <option value="118">Korea (ROK)</option>
+            <option value="117">Korea [Republic of]</option>
+            <option value="119">Kuwait</option>
+            <option value="112">Kyrgyzstan</option>
+            <option value="122">Laos</option>
+            <option value="131">Latvia</option>
+            <option value="123">Lebanon</option>
+            <option value="128">Lesotho</option>
+            <option value="127">Liberia</option>
+            <option value="132">Libya</option>
+            <option value="125">Liechtenstein</option>
+            <option value="129">Lithuania</option>
+            <option value="130">Luxembourg [Grand Dutchy of]</option>
+            <option value="142">Macao</option>
+            <option value="138">Macedonia</option>
+            <option value="136">Madagascar</option>
+            <option value="150">Malawi</option>
+            <option value="152">Malaysia</option>
+            <option value="149">Maldives</option>
+            <option value="139">Mali</option>
+            <option value="147">Malta</option>
+            <option value="137">Marshall Islands</option>
+            <option value="144">Martinique</option>
+            <option value="145">Mauritania [Islamic Republic of]</option>
+            <option value="148">Mauritius</option>
+            <option value="239">Mayotte</option>
+            <option value="151">Mexico</option>
+            <option value="72">Micronesia, Federal States of</option>
+            <option value="135">Moldova, Republic of</option>
+            <option value="134">Monaco</option>
+            <option value="141">Mongolia</option>
+            <option value="50">Montenegro</option>
+            <option value="146">Montserrat</option>
+            <option value="133">Morocco</option>
+            <option value="153">Mozambique</option>
+            <option value="140">Myanmar</option>
+            <option value="154">Namibia</option>
+            <option value="163">Nauru</option>
+            <option value="162">Nepal</option>
+            <option value="160">Netherlands</option>
+            <option value="8">Netherlands Antilles</option>
+            <option value="155">New Caledonia</option>
+            <option value="165">New Zealand</option>
+            <option value="159">Nicaragua</option>
+            <option value="156">Niger</option>
+            <option value="158">Nigeria</option>
+            <option value="164">Niue</option>
+            <option value="157">Norfolk Island</option>
+            <option value="143">Northern Mariana Islands</option>
+            <option value="161">Norway</option>
+            <option value="166">Oman</option>
+            <option value="172">Pakistan</option>
+            <option value="179">Palau</option>
+            <option value="177">Palestine</option>
+            <option value="167">Panama</option>
+            <option value="170">Papua New Guinea</option>
+            <option value="180">Paraguay</option>
+            <option value="168">Peru</option>
+            <option value="171">Philippines</option>
+            <option value="175">Pitcairn</option>
+            <option value="173">Poland</option>
+            <option value="178">Portugal</option>
+            <option value="176">Puerto Rico</option>
+            <option value="181">Qatar</option>
+            <option value="182">Reunion Island</option>
+            <option value="183">Romania</option>
+            <option value="184">Russia</option>
+            <option value="185">Rwanda</option>
+            <option value="192">Saint Helena</option>
+            <option value="116">Saint Kitts and Nevis</option>
+            <option value="124">Saint Lucia</option>
+            <option value="174">Saint Pierre and Miquelon</option>
+            <option value="228">Saint Vincent and Grenadines</option>
+            <option value="235">Samoa</option>
+            <option value="197">San Marino</option>
+            <option value="201">Sao Tome &amp; Principe</option>
+            <option value="186">Saudi Arabia</option>
+            <option value="198">Senegal</option>
+            <option value="243">Serbia</option>
+            <option value="188">Seychelles</option>
+            <option value="196">Sierra Leone</option>
+            <option value="191">Singapore</option>
+            <option value="195">Slovak Republic</option>
+            <option value="193">Slovenia</option>
+            <option value="187">Solomon Islands</option>
+            <option value="199">Somali Republic</option>
+            <option value="240">South Africa</option>
+            <option value="88">South Georgia, Sandwich Isl.</option>
+            <option value="246">South Sudan</option>
+            <option value="67">Spain</option>
+            <option value="126">Sri Lanka</option>
+            <option value="189">Sudan</option>
+            <option value="200">Suriname</option>
+            <option value="194">Svalbard and Jan Mayen</option>
+            <option value="204">Swaziland</option>
+            <option value="190">Sweden</option>
+            <option value="42">Switzerland</option>
+            <option value="203">Syria</option>
+            <option value="219">Taiwan, Province of China</option>
+            <option value="210">Tajikistan</option>
+            <option value="220">Tanzania</option>
+            <option value="209">Thailand</option>
+            <option value="212">Timor-Leste</option>
+            <option value="208">Togo</option>
+            <option value="211">Tokelau</option>
+            <option value="215">Tonga Islands</option>
+            <option value="217">Trinidad and Tobago</option>
+            <option value="214">Tunisia</option>
+            <option value="216">Turkey</option>
+            <option value="213">Turkmenistan</option>
+            <option value="205">Turks and Caicos Islands</option>
+            <option value="218">Tuvalu</option>
+            <option value="222">Uganda</option>
+            <option value="221">Ukraine</option>
+            <option value="2">United Arab Emirates</option>
+            <option value="76">United Kingdom</option>
+            <option value="244">United Nations</option>
+            <option value="224">United States of America</option>
+            <option value="237">Unknown Country</option>
+            <option value="225">Uruguay</option>
+            <option value="223">US Minor Outlying Islands</option>
+            <option value="226">Uzbekistan</option>
+            <option value="233">Vanuatu</option>
+            <option value="229">Venezuela</option>
+            <option value="232">Vietnam</option>
+            <option value="230">Virgin Islands, British</option>
+            <option value="231">Virgin Islands, US</option>
+            <option value="234">Wallis &amp; Futuna Islands</option>
+            <option value="65">Western Sahara</option>
+            <option value="238">Yemen</option>
+            <option value="241">Zambia</option>
+            <option value="242">Zimbabwe</option>
+    
+        </select>
+                                <span id="ContentPlaceHolder1_RegistrationUC1_RequiredFieldValidator16" class="validationError" style="color:Red;display:none;"> Select Country</span>
+                            </div>
+                            <div class="inputBlock">
+                                <label for="ContentPlaceHolder1_RegistrationUC1_TxtPinCode" id="ContentPlaceHolder1_RegistrationUC1_Label37" class="fLabel">Pin Code :</label><span class="red">*</span>
+                                <input name="ctl00$ContentPlaceHolder1$RegistrationUC1$TxtPinCode" type="text" maxlength="6" id="ContentPlaceHolder1_RegistrationUC1_TxtPinCode" onkeyup="extractNumericNumber(this,0,false);" onkeypress="return IsNumericWithDotNegative (this, event, false, false);" autocomplete="off">
+                                <span id="ContentPlaceHolder1_RegistrationUC1_RequiredFieldValidator23" class="validationError" style="color:Red;display:none;"> Add Pin code</span>
+                                <span id="ContentPlaceHolder1_RegistrationUC1_RegularExpressionValidator1" class="validationError" style="color:Red;display:none;">Pin code must be 6 numeric digits</span>
+                            </div>
+                            <div style="margin: 13px 0px 13px 0px; padding: 5px 5px 5px 5px; width: 450px;display:none">
+                                <label for="ContentPlaceHolder1_RegistrationUC1_ChkIsBankAccountLink" id="ContentPlaceHolder1_RegistrationUC1_LblAcccuntLinkWithAadhar" class="fLabel">Is your bank account number linked with aadhar card number?</label>
+                                <span class="fLabel"><input id="ContentPlaceHolder1_RegistrationUC1_ChkIsBankAccountLink" type="checkbox" name="ctl00$ContentPlaceHolder1$RegistrationUC1$ChkIsBankAccountLink" autocomplete="off"></span>
+                            </div>
+                            <div class="inputBlock">
+                                <label for="ContentPlaceHolder1_RegistrationUC1_TxtBankAccHolder" id="ContentPlaceHolder1_RegistrationUC1_Label17" class="fLabel">Name Of Bank Account Holder :</label><span class="red">*</span>
+                                <input name="ctl00$ContentPlaceHolder1$RegistrationUC1$TxtBankAccHolder" type="text" maxlength="100" id="ContentPlaceHolder1_RegistrationUC1_TxtBankAccHolder" onkeypress="return IsAlphabate(event);" autocomplete="off">
+                                <span id="ContentPlaceHolder1_RegistrationUC1_RequiredFieldValidator15" class="validationError" style="color:Red;display:none;"> Add name of bank account holder</span>
+                            </div>
+                            <div class="inputBlock">
+                                <label for="ContentPlaceHolder1_RegistrationUC1_dllBank" id="ContentPlaceHolder1_RegistrationUC1_Label43" class="fLabel">Bank Name :</label><span class="red">*</span>
+                                <select name="ctl00$ContentPlaceHolder1$RegistrationUC1$dllBank" onchange="javascript:setTimeout('__doPostBack(\'ctl00$ContentPlaceHolder1$RegistrationUC1$dllBank\',\'\')', 0)" id="ContentPlaceHolder1_RegistrationUC1_dllBank">
+            <option selected="selected" value="0">-- Select --</option>
+            <option value="SBI">SBI</option>
+            <option value="PNB">PNB</option>
+            <option value="Other">Other</option>
+    
+        </select>
+                                
+                                <span id="ContentPlaceHolder1_RegistrationUC1_RequiredFieldValidator27" class="validationError" style="color:Red;display:none;"> Select bank</span>
+                                
+                            </div>
+                            <div class="inputBlock">
+                                <label for="ContentPlaceHolder1_RegistrationUC1_TxtBranchName" id="ContentPlaceHolder1_RegistrationUC1_Label44" class="fLabel">Branch Name :</label><span class="red">*</span>
+                                <input name="ctl00$ContentPlaceHolder1$RegistrationUC1$TxtBranchName" type="text" maxlength="100" id="ContentPlaceHolder1_RegistrationUC1_TxtBranchName" onkeypress="return IsAlphaNumeric(event);" autocomplete="off">
+                                <span id="ContentPlaceHolder1_RegistrationUC1_RequiredFieldValidator13" class="validationError" style="color:Red;display:none;"> Add branch name</span>
+                            </div>
+                            <div class="inputBlock" style="width: 100%;">
+                                <label for="ContentPlaceHolder1_RegistrationUC1_TxtAccountNo1" id="ContentPlaceHolder1_RegistrationUC1_Label42" class="fLabel">Account No. :</label><span class="red">*</span> <span class="red">(Kindly enter
+                                        your bank account number which is linked with aadhar to ensure correct payment)</span>
+                                <div>
+                                    <input name="ctl00$ContentPlaceHolder1$RegistrationUC1$TxtAccountNo1" type="text" maxlength="4" id="ContentPlaceHolder1_RegistrationUC1_TxtAccountNo1" onkeyup="extractNumericNumber(this,0,false);" onkeypress="return IsNumericWithDotNegative (this, event, false, false);" style="width: 10%;" autocomplete="off">
+                                    <input name="ctl00$ContentPlaceHolder1$RegistrationUC1$TxtAccountNo2" type="text" maxlength="4" id="ContentPlaceHolder1_RegistrationUC1_TxtAccountNo2" onkeyup="extractNumericNumber(this,0,false);" onkeypress="return IsNumericWithDotNegative (this, event, false, false);" style="width: 10%;" autocomplete="off">
+                                    <input name="ctl00$ContentPlaceHolder1$RegistrationUC1$TxtAccountNo3" type="text" maxlength="4" id="ContentPlaceHolder1_RegistrationUC1_TxtAccountNo3" onkeyup="extractNumericNumber(this,0,false);" onkeypress="return IsNumericWithDotNegative (this, event, false, false);" style="width: 10%;" autocomplete="off">
+                                    <input name="ctl00$ContentPlaceHolder1$RegistrationUC1$TxtAccountNo4" type="text" maxlength="4" id="ContentPlaceHolder1_RegistrationUC1_TxtAccountNo4" onkeyup="extractNumericNumber(this,0,false);" onkeypress="return IsNumericWithDotNegative (this, event, false, false);" style="width: 10%;" autocomplete="off">
+                                    <span id="ContentPlaceHolder1_RegistrationUC1_cvCreditCard" style="color:Red;display:none;">Enter valid Account No</span>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="inputBlock">
+                                    <label for="ContentPlaceHolder1_RegistrationUC1_TxtIFSCCode1" id="ContentPlaceHolder1_RegistrationUC1_Label422" class="fLabel">IFSC Code :</label><span class="red">*</span>
+                                    <div>
+                                        <input name="ctl00$ContentPlaceHolder1$RegistrationUC1$TxtIFSCCode1" type="text" maxlength="4" id="ContentPlaceHolder1_RegistrationUC1_TxtIFSCCode1" style="width: 23%;" autocomplete="off">
+                                        <input name="ctl00$ContentPlaceHolder1$RegistrationUC1$TxtIFSCCode2" type="text" maxlength="7" id="ContentPlaceHolder1_RegistrationUC1_TxtIFSCCode2" style="width: 70%;" autocomplete="off">
+                                    </div>
+                                    <span id="ContentPlaceHolder1_RegistrationUC1_CustomValidator1" style="color:Red;display:none;">Enter valid IFSC Code</span>
+                                </div>
+                                <div class="inputBlock">
+                                    <label for="ContentPlaceHolder1_RegistrationUC1_ddlPensioner" id="ContentPlaceHolder1_RegistrationUC1_Label173" class="fLabel">Pensioner/Non Pensioner :</label><span class="red">*</span>
+                                    <select name="ctl00$ContentPlaceHolder1$RegistrationUC1$ddlPensioner" onchange="javascript:setTimeout('__doPostBack(\'ctl00$ContentPlaceHolder1$RegistrationUC1$ddlPensioner\',\'\')', 0)" id="ContentPlaceHolder1_RegistrationUC1_ddlPensioner">
+            <option selected="selected" value="0">-- Select --</option>
+            <option value="Yes">PENSIONER</option>
+            <option value="No">NON PENSIONER</option>
+    
+        </select>
+                                    <span id="ContentPlaceHolder1_RegistrationUC1_RequiredFieldValidator445" class="validationError" style="color:Red;display:none;">Please select Pension/Non Pensioners</span>
+                                </div>
+                                
+                            </div>
+                        
+    </div>
+                </div>
+            </div>
+            <div class="signupBtns">
+            
+                <div class="alignRight">
+                    <input type="submit" name="ctl00$ContentPlaceHolder1$RegistrationUC1$btnSubmit" value="Submit" id="ContentPlaceHolder1_RegistrationUC1_btnSubmit" autocomplete="off" style="padding: 4px; border: 1px solid coral; color:#e65a15; background-color:transparent; margin:20px">
+                    <input type="submit" name="ctl00$ContentPlaceHolder1$RegistrationUC1$btnCancel" value="Cancel" id="ContentPlaceHolder1_RegistrationUC1_btnCancel" autocomplete="off" style="padding: 4px; border: 1px solid coral; color:#e65a15; background-color:transparent;">
+                </div>
+                <div id="ContentPlaceHolder1_RegistrationUC1_DivCapcha" class="alignRight">
+                    <label for="ContentPlaceHolder1_RegistrationUC1_txtVerficationCode" id="ContentPlaceHolder1_RegistrationUC1_Label28" class="loginPageField autoWdth">Verification Code  </label>
+                    <input name="ctl00$ContentPlaceHolder1$RegistrationUC1$txtVerficationCode" type="text" id="ContentPlaceHolder1_RegistrationUC1_txtVerficationCode" class="loginInput" autocomplete="off" style="width:100px;">
+                    <img id="ContentPlaceHolder1_RegistrationUC1_Image2" src="Captcha.aspx" alt="Captchaa" style="border-width: 0px; vertical-align: middle;">
+                    <img src="https://online.ksb.gov.in:443/KSBAdmin/Images/refresh-icon.png" alt="refresh" onclick="refresh();" style="cursor: pointer; vertical-align: middle;"><br>
+                    <span id="ContentPlaceHolder1_RegistrationUC1_RequiredFieldValidator18" class="error" style="color:Red;visibility:hidden;">Please enter verification code</span>
+                    <span id="ContentPlaceHolder1_RegistrationUC1_lblMessage" class="error" style="color:Red;"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
